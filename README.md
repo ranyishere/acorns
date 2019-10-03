@@ -16,7 +16,13 @@ For each video, you will find a folder with 3 files:
 | `<id>_captions.xml` | the gold-standard translation and the silver-standard gloss | training video-to-gloss (silver), gloss-to-English (gold), or video-to-English (end-to-end). |
 
 ## Statistics
-TBD
+| video class | num examples (%) | total duration (%) | avg video duration (stdev) | vocabulary size | average English words per second (stdev) | average signs per second |
+|--|--|--|--|--|--|--|
+| all | | | | | | |
+| news | | | | | | |
+| educational | | | | | | |
+| religious | | | | | | |
+| other | | | | | | |
 
 ## Methodology
 ### Normalized Video Construction
@@ -28,8 +34,13 @@ TBD
 ## Baseline Performance
 TBD 
 ### Human accuracy
-| n | IIA (kappa) | average accuracy |
-|---|-------------|------------------|
+| video class | n | IIA (kappa) | average accuracy |
+|-------------|---|-------------|------------------|
+| all | | | |
+| news | | | |
+| educational | | | |
+| religious | | | |
+| other | | | |
 
 ### Off-the-shelf neural translation models
 | base model | training data | BLEU score |
