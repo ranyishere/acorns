@@ -13,22 +13,22 @@ For each video, you will find a folder with 3 files:
 |-----------|-------------|-----|
 | `<id>_raw.mp4` | the video as it appears on YouTube | training on noisy real-world data |
 | `<id>_norm.mp4` | a version of the video with clean background | training on simplified data |
-| `<id>_captions.xml` | the gold-standard translation and the silver-standard gloss | training ASL-to-gloss (silver) and gloss-to-English (gold). |
+| `<id>_captions.xml` | the gold-standard translation and the silver-standard gloss | training video-to-gloss (silver), gloss-to-English (gold), or video-to-English (gold). |
 
 ## Statistics
 TBD
 
-## Normalized Video Construction
+## Methodology
+### Normalized Video Construction
 TBD
 
-## Silver Standard Construction
+### Silver Standard Construction
 TBD
 
-## Baseline Performances
+## Baseline Performance
 TBD 
-
-### BERT
-
-### Bi-LSTM
-
 ### Human accuracy
+
+### Latent translation
+
+### Off-the-shelf neural translation models
