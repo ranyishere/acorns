@@ -5,7 +5,7 @@
 This corpus provides 1000 hours of American Sign Language gold-standard, sentence-aligned interpretations and a silver-standard, word-aligned gloss. It is designed to be used for machine translation applications to and from English. It is compiled by Rany Tith and Lee Kezar.
 
 ## Formatting (Anticipated)
-A global listing of video IDs and their meta information can be found in `videos_meta.csv`. Note that each video is also marked with `train`, `dev`, or `test` for model development purposes. A blind set exists for model evaluation purposes.
+A global listing of video IDs and their meta information can be found in `videos_meta.csv`. Note that each video is also marked with `train`, `dev`, or `test` for model development purposes (used in the baseline methods). A blind set exists for model evaluation purposes.
 
 For each video, you will find a folder with 3 files:
 
@@ -28,6 +28,8 @@ TBD
 ## Baseline Performance
 TBD 
 ### Human accuracy
+| n | IIA (kappa) | average accuracy |
+|---|-------------|------------------|
 
 ### Off-the-shelf neural translation models
 | base model | training data | BLEU score |
