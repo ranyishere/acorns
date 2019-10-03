@@ -13,7 +13,7 @@ For each video, you will find a folder with 3 files:
 |-----------|-------------|-----|
 | `<id>_raw.mp4` | the video as it appears on YouTube | training on noisy real-world data |
 | `<id>_norm.mp4` | a version of the video with clean background | training on simplified data |
-| `<id>_captions.xml` | the gold-standard translation and the silver-standard gloss | training video-to-gloss (silver), gloss-to-English (gold), or video-to-English (gold). |
+| `<id>_captions.xml` | the gold-standard translation and the silver-standard gloss | training video-to-gloss (silver), gloss-to-English (gold), or video-to-English (end-to-end). |
 
 ## Statistics
 TBD
@@ -29,6 +29,10 @@ TBD
 TBD 
 ### Human accuracy
 
-### Latent translation
-
 ### Off-the-shelf neural translation models
+| base model | training | BLEU score |
+|--------|-------------|------------|
+| BERT | noisy, end-to-end | TBD |
+| BERT | normalized, end-to-end | TBD |
+| BERT | normalized, latent translation | TBD |
+| BERT | normalized, face encoding + latent translation | TBD |
