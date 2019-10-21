@@ -121,13 +121,6 @@ def main():
                 # downloading to directory
                 dl = yt.streams.first().download(output_path=video_dir, filename='{0}.mp4'.format(video_id))
 
-            exit()
-
-    exit()
-
-
-
-    # Download file
 
 
 
